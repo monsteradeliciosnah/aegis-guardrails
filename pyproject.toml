@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegis-guardrails"
+version = "0.1.0"
+description = "Policy guardrails for LLM apps with a tiny rule DSL, PII redaction, and a FastAPI service"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.112.0", "uvicorn[standard]>=0.30.0", "pydantic>=2.8.0", "regex>=2024.5.15"]
